@@ -1,5 +1,5 @@
 
-  <img src="./frontend/src/assets/logo.svg" height="100px" alt="Be the hero"/>
+  <img src="./web/src/assets/logo.svg" height="100px" alt="Be the hero"/>
 </div>
 
 <div align="center">
