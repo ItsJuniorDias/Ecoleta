@@ -1,4 +1,4 @@
-
+<div align="center">
   <img src="./web/src/assets/logo.svg" height="100px" alt="Be the hero"/>
 </div>
 
