@@ -4,8 +4,7 @@
 
 <div align="center">
 
-  #### A meeting between programmers so they can share and share knowledge and experience
-
+  #### Application helps in organizing and collecting recyclable materials
 
   ![](https://img.shields.io/badge/author-Junior%20Dias-/?color=34cb79)
   ![](https://img.shields.io/badge/Back--End-NodeJS-/?color=34cb79)
