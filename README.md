@@ -12,7 +12,7 @@
   ![](https://img.shields.io/badge/Mobile-React%20Native-/?color=34cb79)
 </div> 
 
-# Ecoleta :recycle
+# Ecoleta :recycle:
 
  ## About this Project
 
