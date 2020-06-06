@@ -1,16 +1,15 @@
-
-  <img src="./frontend/src/assets/logo.svg" height="100px" alt="Be the hero"/>
+<div align="center">
+  <img src="./web/src/assets/logo.svg" height="100px" alt="Be the hero"/>
 </div>
 
 <div align="center">
 
-  #### A meeting between programmers so they can share and share knowledge and experience
+  #### Application helps in organizing and collecting recyclable materials
 
-
-  ![](https://img.shields.io/badge/author-Junior%20Dias-/?color=df4723)
-  ![](https://img.shields.io/badge/Back--End-NodeJS-/?color=df4723)
-  ![](https://img.shields.io/badge/Front--End-ReactJS-/?color=df4723)
-  ![](https://img.shields.io/badge/Mobile-React%20Native-/?color=df4723)
+  ![](https://img.shields.io/badge/author-Junior%20Dias-/?color=34cb79)
+  ![](https://img.shields.io/badge/Back--End-NodeJS-/?color=34cb79)
+  ![](https://img.shields.io/badge/Front--End-ReactJS-/?color=34cb79)
+  ![](https://img.shields.io/badge/Mobile-React%20Native-/?color=34cb79)
 </div> 
 
 # Ecoleta :recycle:
