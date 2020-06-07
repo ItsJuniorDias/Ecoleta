@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "knex:migrate": "knex migrate:latest --knexfile knexfile.ts migrate:latest"
   },
   "repository": "https://github.com/ItsJuniorDias/Ecoleta.git",
   "author": "ItsJuniorDias <juniordias_@live.com>",
