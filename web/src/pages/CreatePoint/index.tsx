@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
+import {Map, TileLayer, Marker} from 'react-leaflet';
 
 import './styles.css';
 
@@ -62,13 +63,20 @@ const CreatePoint = () => {
             <span>Selecione o endereço no mapa</span>
           </legend>
 
+          <Map center={[-20.8271132, -49.3754702]} zoom={15}> 
+           <TileLayer
+            attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+           />
+          </Map>
+
           <div className="field-group">
              <div className="field">
                <label htmlFor="uf">Estado (UF)</label>
                <select name="uf" id="uf"> 
                  <option value="0">Selecione uma UF</option>
                </select>
-             </div>
+             </div> 
 
              <div className="field">
                <label htmlFor="city">Cidade</label>
@@ -88,14 +96,39 @@ const CreatePoint = () => {
 
           <ul className="items-grid">
             <li> 
-              <img src="" alt=""/> 
+              <img src="http://localhost:3333/uploads/oleo.svg" alt="Test"/> 
+              <span>Óleo de Cozinha</span>
+            </li>
 
+            <li className="selected"> 
+              <img src="http://localhost:3333/uploads/oleo.svg" alt="Test"/> 
+              <span>Óleo de Cozinha</span>
+            </li>
+
+            <li> 
+              <img src="http://localhost:3333/uploads/oleo.svg" alt="Test"/> 
+              <span>Óleo de Cozinha</span>
+            </li>
+
+            <li> 
+              <img src="http://localhost:3333/uploads/oleo.svg" alt="Test"/> 
+              <span>Óleo de Cozinha</span>
+            </li>
+
+            <li> 
+              <img src="http://localhost:3333/uploads/oleo.svg" alt="Test"/> 
+              <span>Óleo de Cozinha</span>
+            </li>
+
+            <li> 
+              <img src="http://localhost:3333/uploads/oleo.svg" alt="Test"/> 
+              <span>Óleo de Cozinha</span>
             </li>
           </ul> 
         </fieldset>
 
-        <button>Cadastrar ponto de coleta</button>
-
+        <button>Cadastrar ponto de coleta</button> 
+ 
       </form>
     </div>
   );
